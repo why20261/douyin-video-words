@@ -2,10 +2,14 @@
 name: douyin-video-words
 description: 抖音视频文案提取。输入抖音视频链接、用千问LLM进行智能语音转写，支持普通话、粤语等方言及外语，结果直接输出到聊天。当用户做抖音文案提取、抖音视频文案提取、抖音视频转文字、抖音口播转文字或抖音逐字稿提取时使用。支持提取音频文案、提取口播文案、理解场景描述文案。触发场景：抖音文案提取、抖音视频文案提取、抖音音频文案提取、抖音口播提取、抖音视频场景描述文案、抖音视频分析、抖音视频转文字、抖音字幕提取、抖音文案提取、扒抖音文案、抖音口播文字。调用大模型自动转写并剔除语气词、口误与重复内容，并可通过自定义 Prompt 生成总结、改写、金句提取、分镜头、中英翻译等风格化文案。
 license: MIT
+version: "1.1.0"
+display_name: 抖音视频文案提取与内容改写
+display_name_en: Douyin Video Words Extract and Rewrite
+description_zh: 抖音视频文案提取。输入抖音视频链接、用千问LLM进行智能语音转写，支持普通话、粤语等方言及外语，结果直接输出到聊天。当用户做抖音文案提取、抖音视频文案提取、抖音视频转文字、抖音口播转文字或抖音逐字稿提取时使用。支持提取音频文案、提取口播文案、理解场景描述文案。触发场景：抖音文案提取、抖音视频文案提取、抖音音频文案提取、抖音口播提取、抖音视频场景描述文案、抖音视频分析、抖音视频转文字、抖音字幕提取、抖音文案提取、扒抖音文案、抖音口播文字。
+description_en: Douyin Video Copy Extraction. Input a Douyin video link, and the Qwen LLM performs intelligent speech-to-text transcription. It supports Mandarin, Cantonese and other dialects as well as foreign languages, with results output directly to the chat window. Invoked when users carry out Douyin copy extraction, Douyin video copy extraction, Douyin video-to-text conversion, Douyin voiceover-to-text transcription or Douyin verbatim transcript extraction. It supports extracting audio transcripts, voiceover copy and parsing scene description texts. Trigger scenarios, Douyin copy extraction, Douyin video copy extraction, Douyin audio transcript extraction, Douyin voiceover extraction, Douyin video scene description copy, Douyin video analysis, Douyin video-to-text conversion, Douyin subtitle extraction, scrape Douyin copy, retrieve text from Douyin voiceovers.
 metadata:
   enabled: true
   type: command
-  version: "1.1.0"
   runtime: "nodejs@16.14.0+"
   requires:
     bins:
